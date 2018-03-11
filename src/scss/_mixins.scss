@@ -1,0 +1,41 @@
+@mixin respond-to($media) {
+  @if $media == xs or $media == xs-down {
+    @media only screen and (max-width: $media-screen-xs - 1) { @content; }
+  }
+  @else if $media == xs-up {
+    @content;
+  }
+  @else if $media == sm-down {
+    @media only screen and (max-width: $media-screen-sm - 1) { @content; }
+  }
+  @else if $media == sm {
+    @media only screen and (min-width: $media-screen-xs) and (max-width: $media-screen-sm - 1) { @content; }
+  }
+  @else if $media == sm-up {
+    @media only screen and (min-width: $media-screen-xs) { @content; }
+  }
+  @else if $media == md-down {
+    @media only screen and (max-width: $media-screen-md - 1) { @content; }
+  }
+  @else if $media == md {
+    @media only screen and (min-width: $media-screen-sm) and (max-width: $media-screen-md - 1) { @content; }
+  }
+  @else if $media == md-up {
+    @media only screen and (min-width: $media-screen-sm) { @content; }
+  }
+  @else if $media == lg-down {
+    @media only screen and (max-width: $media-screen-lg - 1) { @content; }
+  }
+  @else if $media == lg {
+    @media only screen and (min-width: $media-screen-md) and (max-width: $media-screen-lg - 1) { @content; }
+  }
+  @else if $media == lg-up {
+    @media only screen and (min-width: $media-screen-md) { @content; }
+  }
+  @else if $media == xl-down {
+    @content;
+  }
+  @else if $media == xl or $media == xl-up {
+    @media only screen and (min-width: $media-screen-lg) { @content; }
+  }
+}

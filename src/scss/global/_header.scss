@@ -1,0 +1,22 @@
+.block {
+    height: 100px;
+
+    &__item {
+        width: 100px
+    }
+
+    &:hover {
+
+    }
+
+    // .block a span
+    a {
+        span {
+        
+        }
+    }
+}
+
+body {
+    font-size: 30px;
+}
