@@ -1,17 +1,21 @@
-cd /d/Работа/genetic/
+cd /d/Работа/genetic/<br>
 
-// при первом запуске!
-npm install -g gulp
+// при первом запуске!<br>
+npm install -g gulp<br>
 npm install
 
-// картинки заливать ДО запуска
-// запуск сервера
-gulp
-// урл сервера
-// localhost:9000
+// картинки заливать ДО запуска<br>
+// запуск сервера<br>
+gulp<br>
+// урл сервера<br>
+// localhost:9000<br>
 
-// слияние в готовую верстку
+// слияние в готовую верстку<br>
 gulp build
 
-// окончание работы
-// ctrl + c
+// окончание работы<br>
+// ctrl + c<br>
+git add .<br>
+git status<br>
+git commit -am 'commit_name'<br>
+git push origin master
