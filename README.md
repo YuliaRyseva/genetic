@@ -5,6 +5,9 @@ npm install -g gulp<br>
 npm install
 
 // картинки заливать ДО запуска<br>
+//стянуть изменения с сервера<br>
+//git pull origin master<br>
+
 // запуск сервера<br>
 gulp<br>
 // урл сервера<br>
