@@ -19,3 +19,6 @@ git add .<br>
 git status<br>
 git commit -am 'commit_name'<br>
 git push origin master
+
+// в пустую папку загрузка проекта<br>
+git clone https://github.com/YuliaRyseva/genetic.git
